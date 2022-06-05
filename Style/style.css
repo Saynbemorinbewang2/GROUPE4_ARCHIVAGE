@@ -1,0 +1,168 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.entete{
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color:rgb(8, 21, 34);
+    left: 0%;
+}
+
+.entete #appName{
+    color: wheat;
+    left: 10px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.entete #appFaculty{
+    position: absolute;
+    color: whitesmoke;
+    left: 60%;
+    top: -5px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.trait{
+    position: absolute;
+    height: 3px;
+    width: 70%;
+    z-index: 1;
+    color: black;
+    background-color: beige;
+}
+
+.trait1{
+    left: 30%;
+    top: 37px;
+}
+
+.trait2{
+    left: 29%;
+    top: 45px;
+    background-color: rgb(247, 247, 192);
+}
+
+nav{
+    position: relative;
+    top: 75px;
+    background-color: rgb(10, 37, 28);
+    height: 60px;
+    left: 0%;
+    border-radius: 15px;
+    border-bottom: 5px solid rgb(18, 1, 94);
+}
+
+nav ul{
+    position: absolute;
+    left: 27%;
+}
+
+nav li{
+    position: relative;
+    display: inline;
+    margin: 50px;
+    top: 10px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.connection-li{
+    right: 0px;
+}
+
+.container{
+    position: absolute;
+    background-color: rgba(16, 12, 54, 0.034);
+    left: 0%;
+    top: 150px;
+    min-height: 100%;
+    height: 750px;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.part1{
+    position: relative;
+    left: 15px;
+    height: 750px;
+}
+
+.part1 .frame1{
+    position: absolute;
+    width: 19%;
+    background-color: rgb(29, 30, 77);
+    height: 750px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+#logoFS{
+    margin-top: 0px;
+    width: 255px;
+    height: 250px;
+}
+
+.part2{
+    position: absolute;
+    width: 79.9%;
+    left: 20%;
+    top: 0px;
+    background-color: rgb(114, 172, 112);
+    height: 750px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+.list-releves{
+    position: relative;
+    top: 10%;
+    left: 10%;
+    width: 60%;
+    height: auto;
+}
+
+.list-releves ul{
+    list-style-type: square;
+}
+
+.list-releves ul li{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.list-releves h3{
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+footer{
+    position: absolute;
+    top: 900px;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(95, 161, 248);
+    margin-top: 5px;
+}

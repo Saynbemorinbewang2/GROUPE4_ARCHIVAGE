@@ -1,0 +1,146 @@
+
+.container-form{
+    position: relative;
+    width: 75%;
+    left: 25%;
+    margin-top: 0px;
+}
+.form{
+    position: relative;
+    top: 0px;
+    font-size: large;
+}
+.form-title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: rgb(14, 5, 94);
+}
+.form input{
+    margin: 0px;
+    width: 60%;
+    height: 30px;
+    border : 1px solid rgb(127, 127, 245);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: small;
+}
+.form select{
+    margin-top: 10px;
+    width: 61%;
+    height: 30px;
+    border : 1px solid rgb(127, 127, 245);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form select option{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.form textarea{
+    margin-top: 5px;
+    width: 60%;
+    height: 50px;
+    border : 1px solid rgb(127, 127, 245);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    
+}
+
+.form [type=radio]{
+    position : relative;
+    width: 30px;
+    height: 30px;
+}
+
+.item [type=radio]{
+    position : relative;
+    width: 30px;
+    height: 30px;
+    left: 50%;
+}
+
+.radio-label{
+    position: relative;
+    top: -7px;
+}
+
+.box-error
+{
+    background-color:rgba(255, 87, 87, 0.966); 
+    color:rgb(1, 5, 65); 
+    width: 55%; 
+    height:max-content; 
+    font-size: 20px; 
+    border-radius:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.box-sucess
+{
+    background-color:rgba(121, 255, 87, 0.966); 
+    color:rgb(1, 5, 65); 
+    width: 55%; 
+    height: max-content; 
+    font-size: 20px; 
+    border-radius:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.box-error a{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: x-large;
+    font-style: italic;
+}
+
+.btn-primary
+{
+    margin-left: 5px;
+    min-height: 40px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(81, 81, 250);
+    border-radius: 5px;
+}
+
+.btn-primary a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.btn-secondary
+{
+    margin-left: 5px;
+    min-height: 40px;
+    margin-top: 5px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(250, 81, 81);
+    border-radius: 5px;
+}
+
+.search-button{
+    position: relative;
+    top: 1px;
+    height: 30px;
+    color: white;
+    font-size: 15px;
+    background-color: rgb(81, 81, 250);
+    border-radius: 5px;
+}
+
+a:focus{
+    color: gray;
+}
